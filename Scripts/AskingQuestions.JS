@@ -6,7 +6,7 @@ const resetBTN = document.getElementById("resetButton");
 
 const getQuestionsAPI = async (name, time) => {
   const promise = await fetch(
-    `https://foroneapi-b2gme8fgcka0etga.westus-01.azurewebsites.net/AskingQuestions/Asking/${nameUpper}/${time}`
+    `https://foroneapi-b2gme8fgcka0etga.westus-01.azurewebsites.net/AskingQuestions/Asking/${name}/${time}`
   );
   const data = await promise.text();
   return data;

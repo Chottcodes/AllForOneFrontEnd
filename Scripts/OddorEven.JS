@@ -17,6 +17,6 @@ submitBTN.addEventListener('click', async () => {
     outputBox.innerText = await GetAPI(userInputConverted);
 })
 resetBTN.addEventListener('click', () => {
-    outputBox.innerText = 'Enter a number for me to reverse';
+    outputBox.innerText = '';
     inputBox.value = '';
 })

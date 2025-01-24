@@ -3,6 +3,7 @@ const outputBox = document.getElementById('outputText');
 const inputputBox = document.getElementById('inputBox');
 const submitBTN = document.getElementById('submitBTN');
 const resetBTN = document.getElementById('resetButton');
+
 const GetAPI = async (input) => {
     const res = await fetch(`https://foroneapi-b2gme8fgcka0etga.westus-01.azurewebsites.net/ReverseItAlpha/Reversestring/${input}`);
     const data = await res.text();
