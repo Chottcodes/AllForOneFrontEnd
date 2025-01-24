@@ -10,9 +10,9 @@
     class="h-screen bg-cover overflow-hidden bg-center bg-no-repeat bg-[url('/Assests/fireyplanet.png')]"
   >
     <div
-      class="w-[80%] h-[20%] text-2xl text-center lg:w-[50%] bg-black m-auto rounded-3xl outline font-sans text-white flex justify-center items-center outline-white outline-1 my-9 bg-opacity-70"
+      class="w-[80%] h-[20%] text-2xl text-center lg:mt-[5%] lg:w-[50%] bg-black m-auto rounded-3xl outline font-sans text-white flex justify-center items-center outline-white outline-1 my-9 bg-opacity-70"
     >
-      <h1 id="outputBox">Enter a number and I will tell you if its odd or even</h1>
+      <h1 >Enter a number and I will tell you if its odd or even</h1>
     </div>
     <div
       class="w-[80%] h-[20%] lg:w-[30%] lg:h-[15%] bg-black m-auto rounded-3xl outline outline-white outline-2 bg-opacity-70"
@@ -25,16 +25,16 @@
         />
     </div>
     <div
-      class="w-[80%] h-[10%] lg:w-[20%] lg:h-[15%] bg-black m-auto rounded-3xl outline font-sans text-white flex justify-center items-center outline-white outline-1 my-9 bg-opacity-70"
+      class="w-[80%] h-[10%] lg:w-[20%] lg:h-[15%] text-3xl bg-black m-auto rounded-3xl outline font-sans text-white flex justify-center items-center outline-white outline-1 my-9 bg-opacity-70"
     >
-      <h1></h1>
+      <h1 id="outputBox"></h1>
     </div>
     <div
-      class="buttonContainer bg-opacity-70 w-[60%] h-44 flex flex-col gap-5 lg:h-20 lg:w-[50%] lg:gap-12 lg:items-center lg:flex-row lg:my-14 m-auto my-7 rounded-2xl lg:justify-evenly"
+      class="buttonContainer bg-opacity-70 w-[60%] h-52 flex flex-col gap-5 lg:h-20 lg:w-[50%] lg:gap-12 lg:items-center lg:flex-row lg:my-14 m-auto my-7 rounded-2xl lg:justify-evenly"
     >
       <button
         class="bg-black bg-opacity-65 outline outline-white rounded-2xl h-[100%] w-[100%] lg:text-3xl lg:w-[80%] lg:h-[90%] text-white hover:outline-white hover:bg-black"
-      
+        id="SubmitBTN"
         >
         Submit
       </button>
@@ -44,8 +44,9 @@
         Home
       </button>
       <button
-        class="bg-black bg-opacity-65 outline outline-white rounded-2xl h-[100%] w-[100%] hidden lg:block lg:text-3xl lg:w-[80%] lg:h-[90%] text-white hover:outline-white hover:bg-black"
-      >
+        class="bg-black bg-opacity-65 outline outline-white rounded-2xl h-[100%] w-[100%] lg:block lg:text-3xl lg:w-[80%] lg:h-[90%] text-white hover:outline-white hover:bg-black"
+        id="resetBTN"
+        >
         Reset
       </button>
     </div>

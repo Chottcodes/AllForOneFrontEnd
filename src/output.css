@@ -1412,6 +1412,14 @@ video {
     margin-top: ;
   }
 
+  .lg\:mt-\[40\%\] {
+    margin-top: 40%;
+  }
+
+  .lg\:mt-\[5\%\] {
+    margin-top: 5%;
+  }
+
   .lg\:block {
     display: block;
   }
