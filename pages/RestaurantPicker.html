@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/output.css">
+    <title>Restaurant Picker</title>
+</head>
+<body class="h-screen bg-cover overflow-hidden bg-center bg-no-repeat bg-[url('/Assests/Nebula.jpg')]">
+    <div class="w-72 h-36 bg-black lg:w-[30%] lg:my-[5%] m-auto my-4 mt-10 rounded-3xl text-white flex justify-center items-center text-3xl bg-opacity-80 outline outline-white outline-2">
+        <h1 id="outputBox">Select a category</h1>
+    </div>
+
+    <div class=" h-[20%] w-[70%] lg:w-[50%]  m-auto text-white">
+        <input type="text" placeholder="Mexican,Indian,Italian" id="inputBox" class="h-[100%] w-[100%] bg-black bg-opacity-80 outline outline-white outline-4 text-center text-3xl rounded-3xl">
+    </div>
+
+
+    <!-- buttons -->
+    <div
+      class="buttonContainer bg-opacity-70 text-3xl w-[70%] h-56 flex flex-col gap-5 lg:h-20 lg:w-[50%] lg:gap-5 lg:items-center lg:flex-row lg:my-24  m-auto my-10 rounded-2xl lg:justify-evenly"
+    >
+      <button
+        class="bg-black bg-opacity-65 outline outline-white rounded-2xl h-[100%] w-[100%] lg:text-3xl lg:w-[80%] lg:h-[90%] text-white hover:outline-white hover:bg-black"
+        id="submitBTN"
+        >
+        Submit
+      </button>
+      <button
+        class="bg-black bg-opacity-65 outline outline-white rounded-2xl h-[100%] w-[100%] lg:text-3xl lg:w-[80%] lg:h-[90%] text-white hover:outline-white hover:bg-black"
+      >
+        Home
+      </button>
+      <button
+        class="bg-black bg-opacity-65 outline outline-white rounded-2xl h-[100%] w-[100%] lg:block lg:text-3xl lg:w-[80%] lg:h-[90%] text-white hover:outline-white hover:bg-black"
+        id="resetButton"
+      >
+        Reset
+      </button>
+    </div>
+    <script src="../Scripts/RestaurantPicker.JS"></script>
+</body>
+</html>

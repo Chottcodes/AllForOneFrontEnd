@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/output.css" />
+    <title>Document</title>
+  </head>
+  <body
+    class="h-screen bg-cover overflow-hidden bg-center bg-no-repeat bg-[url('/Assests/Planets.jpg')]"
+  >
+    <div
+      class="w-[80%] h-[20%] lg:w-[50%] lg:mt-[10%] text-2xl text-center bg-black m-auto rounded-3xl outline font-sans text-white flex justify-center items-center outline-white outline-1 my-9 bg-opacity-70"
+    >
+      <h1 id="outputBox">Enter a number for me to reverse</h1>
+    </div>
+    <div
+      class="w-[80%] h-[20%] lg:w-[50%] bg-black m-auto rounded-3xl outline outline-white outline-2 bg-opacity-70"
+    >
+      <input
+        type="text"
+        placeholder="Enter a number"
+        id="inputBox"
+        class="w-[100%] h-[100%] bg-black rounded-3xl outline text-white text-2xl text-center outline-white outline-2 bg-opacity-70"
+      />
+    </div>
+    <div
+      class="buttonContainer bg-opacity-70 w-[60%] h-56 text-3xl flex flex-col gap-5 lg:h-20 lg:w-[50%] lg:gap-12 lg:items-center lg:flex-row lg:my-14 m-auto my-7 rounded-2xl lg:justify-evenly"
+    >
+      <button
+        class="bg-black bg-opacity-65 outline outline-white rounded-2xl h-[100%] w-[100%] lg:text-3xl lg:w-[80%] lg:h-[90%] text-white hover:outline-white hover:bg-black"
+        id="SubmitBTN"
+        >
+        Submit
+      </button>
+      <button
+        class="bg-black bg-opacity-65 outline outline-white rounded-2xl h-[100%] w-[100%] lg:text-3xl lg:w-[80%] lg:h-[90%] text-white hover:outline-white hover:bg-black"
+      >
+        Home
+      </button>
+      <button
+        class="bg-black bg-opacity-65 outline outline-white text-3xl rounded-2xl h-[100%] w-[100%] lg:block lg:text-3xl lg:w-[80%] lg:h-[90%] text-white hover:outline-white hover:bg-black"
+        id="resetButton"
+      >
+        Reset
+      </button>
+    </div>
+    <script src="../Scripts/ReverseItNumber.js"></script>
+  </body>
+</html>
